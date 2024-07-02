@@ -5,11 +5,15 @@ export interface ModuleOptions {}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'my-module',
-    configKey: 'myModule',
+    name: 'nuxt-keycloak',
+    configKey: 'nuxtKeycloak',
+    compatibility: {
+      nuxt: '>=3.0.0',
+    },
   },
   // Default configuration options of the Nuxt module
   defaults: {},
+  hooks: {},
   setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
 

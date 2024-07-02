@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  myModule: {},
+  nuxtKeycloak: {},
   devtools: { enabled: true },
 })
