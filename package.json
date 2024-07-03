@@ -5,6 +5,15 @@
   "repository": "JonathanSchndr/nuxt-keycloak",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "keycloak",
+    "nuxt-module",
+    "vue3",
+    "nuxt3",
+    "nuxt-keycloak",
+    "nuxt-community"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
